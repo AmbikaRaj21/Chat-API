@@ -14,7 +14,7 @@ const options = {
                 description: "Local Server",
             },
             {
-                url: "https://your-render-url.onrender.com",
+                url: "https://chat-api-5jrx.onrender.com/",
                 description: "Production Server",
             },
         ]

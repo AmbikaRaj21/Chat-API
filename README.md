@@ -61,7 +61,7 @@ chat-api/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone <https://github.com/AmbikaRaj21/Chat-API.git>
 ```
 
 ### 2. Navigate to the project
@@ -152,7 +152,7 @@ http://localhost:5000/api-docs
 ### Production
 
 ```
-https://your-render-url.onrender.com/api-docs
+https://chat-api-5jrx.onrender.com/api-docs
 ```
 
 Swagger allows you to:

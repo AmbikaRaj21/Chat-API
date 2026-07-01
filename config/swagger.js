@@ -1,0 +1,28 @@
+import swaggerJsdoc from "swagger-jsdoc"
+
+const options = {
+    definition: {
+        openapi: "3.0.0",
+        info: {
+            title: "Chat API",
+            version: "1.0.0",
+            description: "API documentation for Chat Application",
+        },
+        servers: [
+            {
+                url: "http://localhost:5000",
+                description: "Local Server",
+            },
+            {
+                url: "https://your-render-url.onrender.com",
+                description: "Production Server",
+            },
+        ]
+    },
+
+    apis: ["./routes/*.js"],
+}
+
+const swaggerSpec = swaggerJsdoc(options)
+
+export default swaggerSpec
